@@ -574,7 +574,14 @@ A one hot encoding is a representation of categorical variables as binary vector
 This first requires that the categorical values be mapped to integer values.
 Then, each integer value is represented as a binary vector that is all zero values except the index of the integer, which is marked with a 1.
 
-## 29. What is a vanishing gradient problems?
+## 29. What is a vanishing gradient problem?
+_As more layers using certain activation functions are added to neural networks, the gradients of the loss function approaches zero, making the network hard to train._
+
+The vanishing gradient problem is a difficulty found in training artificial neural networks with gradient-based learning methods and backpropagation. In such methods, each of the neural network's weights receive an update proportional to the partial derivative of the error function with respect to the current weight in each iteration of training. The problem is that in some cases, the gradient will be vanishingly small, effectively preventing the weight from changing its value. In the worst case, this may completely stop the neural network from further training. As one example of the problem cause, traditional activation functions such as the hyperbolic tangent function have gradients in the range (0, 1), and backpropagation computes gradients by the chain rule. This has the effect of multiplying n of these small numbers to compute gradients of the "front" layers in an n-layer network, meaning that the gradient (error signal) decreases exponentially with n while the front layers train very slowly. 
+
+References:
+
+https://towardsdatascience.com/the-vanishing-gradient-problem-69bf08b15484
 
 ## 30. What is backpropagation?
 
