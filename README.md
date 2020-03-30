@@ -574,8 +574,13 @@ A one hot encoding is a representation of categorical variables as binary vector
 This first requires that the categorical values be mapped to integer values.
 Then, each integer value is represented as a binary vector that is all zero values except the index of the integer, which is marked with a 1.
 
-## 29. RNN and LSTM
-Here are a few of my favorites:
+## 29. What is a vanishing gradient problems?
+
+## 30. RNN and LSTM
+LSTM networks are well-suited to classifying, processing and making predictions based on time series data, since there can be lags of unknown duration between important events in a time series. LSTMs were developed to deal with the exploding and vanishing gradient problems that can be encountered when training traditional RNNs. Relative insensitivity to gap length is an advantage of LSTM over RNNs, hidden Markov models and other sequence learning methods in numerous applications.
+
+Here are some additional references:
+
 * [Understanding LSTM Networks, Chris Olah's LSTM post](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 * [Exploring LSTMs, Edwin Chen's LSTM post](http://blog.echen.me/2017/05/30/exploring-lstms/)
 * [The Unreasonable Effectiveness of Recurrent Neural Networks, Andrej Karpathy's blog post](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
