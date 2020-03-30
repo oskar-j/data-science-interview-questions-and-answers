@@ -576,7 +576,9 @@ Then, each integer value is represented as a binary vector that is all zero valu
 
 ## 29. What is a vanishing gradient problems?
 
-## 30. RNN and LSTM
+## 30. What is backpropagation?
+
+## 31. RNN and LSTM
 LSTM networks are well-suited to classifying, processing and making predictions based on time series data, since there can be lags of unknown duration between important events in a time series. LSTMs were developed to deal with the exploding and vanishing gradient problems that can be encountered when training traditional RNNs. Relative insensitivity to gap length is an advantage of LSTM over RNNs, hidden Markov models and other sequence learning methods in numerous applications.
 
 Here are some additional references:
