@@ -597,3 +597,11 @@ Here are some additional references:
 * [CS231n Lecture 10 - Recurrent Neural Networks, Image Captioning, LSTM, Andrej Karpathy's lecture](https://www.youtube.com/watch?v=iX5V1WpxxkY)
 
 ## 32. What are examples of Bayesian methods used in data science?
+
+## 33. What is a taxicab geometry and Manhattan's distance? 
+
+## 34. What is transfer learning?
+
+## 35. What is reinforcment learning?
+
+## 36. What is online machine learning?
