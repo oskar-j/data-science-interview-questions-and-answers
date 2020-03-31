@@ -598,10 +598,12 @@ Here are some additional references:
 
 ## 32. What are examples of Bayesian methods used in data science?
 
-## 33. What is a taxicab geometry and Manhattan's distance? 
+## 33. What is a taxicab geometry and Manhattan's distance?
 
 ## 34. What is transfer learning?
 
 ## 35. What is reinforcment learning?
 
 ## 36. What is online machine learning?
+
+## 37. What is the difference between Random Forest and Gradient Boosting Machine?
