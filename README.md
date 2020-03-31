@@ -602,8 +602,14 @@ Here are some additional references:
 
 ## 34. What is transfer learning?
 
-## 35. What is reinforcment learning?
+## 35. What is reinforcement learning?
 
 ## 36. What is online machine learning?
 
 ## 37. What is the difference between Random Forest and Gradient Boosting Machine?
+
+## 38. How do you find out if sample has a normal distribution? 
+
+## 39. What is self-supervision? 
+
+## 40. What is ANOVA test? 
